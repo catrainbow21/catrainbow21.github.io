@@ -1,0 +1,31 @@
+header{
+  background-color:rgb(218, 221, 178);
+}
+footer{
+  background-color: rgb(218, 221, 178);
+}
+p{
+  font-size: 20px;
+}
+ul{
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
+}
+selector:pseudo-class {
+  property: value;
+}
+a:link {
+  color:rgb(255, 140, 211)
+}
+a:visited {
+  color:rgb(255, 123, 123)
+}
+a:hover {
+color:rgb(202, 140, 253)
+}
+a:active{
+  color:rgb(255, 233, 108)
+}
+/*Feb 15 2024, Lauren Werner*/
