@@ -1,0 +1,27 @@
+header{
+  background-color: #A8D6EB;
+}
+h1{
+  font-family:"Anton", sans-serif;
+}
+h2{
+  font-size: 1.5em;
+}
+#value{
+  background-color: #aef0cc;
+}
+#example{
+  background-color: #e3adb9;
+}
+p.none{
+  text-decoration: none;
+}
+p.underline{
+text-decoration:underline;
+}
+p.overline{
+  text-decoration: overline;
+}
+p.line-through{
+  text-decoration: line-through;
+}
