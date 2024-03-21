@@ -13,8 +13,8 @@
 	padding: 10px;
 }
 
-body{
-	background-image: url(file:///C:/Users/minic/Dropbox/PC/Desktop/DurangoJewelry/images/jewelry.jpg);
+html{
+	background-image: url("../images/jewelry.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
