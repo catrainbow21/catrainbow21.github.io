@@ -1,0 +1,88 @@
+/*font squirrel*/
+  @font-face{
+    font-family: jellee-roman;
+    src: url(../Fonts/Jellee-Roman.woff);
+  }
+
+  /*LW logo*/
+  .logo{
+    margin-right: 1%;
+    float:left;
+    border-radius: 50%;
+  }
+
+  /*nav bar*/
+  nav ul{
+    background-color:#ffcf69;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-content:flex-end;
+    border-radius: 1em;
+    padding: 12px;
+    
+  }
+
+  /*background*/
+body{
+  background-color:#ffb923;
+}
+
+/*header and nav font*/
+header{
+  background-color: #ffb923;
+  font-size:1.25em;
+  font-family: "jellee-roman", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding:0;
+  height: 150px;
+  max-width: 1250%;
+  border-width: 0;
+}
+
+/*main of about, experience, and contact*/
+#content{
+  background-image: linear-gradient(#ffcf69, #ffffff);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 2em;
+  font-size: 1.25em;
+  font-family: "Comfortaa", san-serif, Arial, Helvetica;
+  height: 85%;
+  width: 85%;
+}
+
+
+footer{
+  background-color: #ffcf69;
+  border-radius: 2em;
+  padding: 10px;
+  text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #737373;
+}
+
+a:active{
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+/*text alignment*/
+span{
+  text-align: center;
+}

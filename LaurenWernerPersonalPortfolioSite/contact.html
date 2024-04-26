@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--Lauren Werner 01/16/24-->
+<html lang="en">
+  <head>
+    <title>Contact Me</title>
+    <meta name="author" content="Lauren Werner">
+    <meta charset="UTF-8">
+    <meta name="description" content="Lauren Werner portfolio contact form">
+    <meta name="keywords" content="C# server-side HTML CSS3 client-side">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/contactStyle.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+      <header>
+        <a href="index.html"><img src="Images/LWLogo.png" alt="yellow_logo_with_letters_L_W" class="logo"></a>
+        <br>
+        <!--Navigation-->
+        <nav>
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div id="content">
+          <form action="mailto:laurenwerner@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="multipart/form-data" method="POST">
+            <!-- Group Fields Together -->
+            <fieldset>
+            <legend>How do I contact you?</legend>
+                <!-- Company Select Box-->
+                <label for="company">Company:</label><input type="text" name="companyName" id="company">
+                <div>
+
+                </div>
+                <!-- Person to Contact Select Box-->
+                <label for="contact">Contact:</label> 
+                <input type="text" name="contact" id="contact">
+                <div>
+
+                </div>
+                <!-- Email -->	
+                
+                <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="Email" >
+                <div>
+
+                </div>
+                <!-- Phone-->
+              
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="000-000-000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <div>
+
+                </div>
+            </fieldset>
+
+            <!-- Group Fields Together-->
+            <fieldset>
+                <legend>What opportunities are available at your company?</legend>
+                <!-- Select Box-->
+                
+                <div>
+                  <br>
+                  <label for="position">Type of Positon:</label>
+                  <select name="position" id="position">
+                    <option value="Internship">Internship</option>
+                    <option value="Part-Time">Part-Time</option>
+                    <option value="Full-Time">Full-Time</option>
+                    <option value="Contract">Contract</option>
+                    <option value="Temporary">Temporary</option>
+                    <option value="On Call">On Call</option>
+                  </select>
+                </div>
+                <br>
+                <!-- Radio Buttons-->
+                
+                <div>
+                  <label>How did you find me?</label>
+                  <br>
+                  <br>
+                  <br>
+                  <input type="radio" name="linkedin" id="linkedin" value="linkedin"><label for="linkedin">LinkedIn</label>
+                  <input type="radio" name="jobfair" id="jobfair" value="jobfair"><label for="jobfair">Job Fair</label>
+                  <input type="radio" name="cwi" id="cwi" value="cwi"><label for="cwi">CWI Corporate Partner</label>
+                  <input type="radio" name="other" id="other" value="other"><label for="other">Other</label>
+                </div>
+                <div>
+                  <!-- Text Area-->	
+                  <textarea name="comments" placeholder="How should i prepare for the interview?" cols="100" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <div id="button">
+              <input type="submit" id="submit" value="Submit" class="btn">
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>Contact me at <a href="mailto:laurenwerner@my.cwi.edu">laurenwerner@my.cwi.edu</a> or <a href="tel:+1208-111-111">(208)-111-111</a></p>
+        <a target="_blank" href="https://www.linkedin.com/"><img src="Images/iconmonstr-linkedin.png" alt="linkedin_logo"></a> 
+        <a target="_blank" href="https://github.com/"><img src="Images/iconmonstr-github.png" alt="github_logo"></a>
+        </footer>
+   
+   </body>
+   </html>
