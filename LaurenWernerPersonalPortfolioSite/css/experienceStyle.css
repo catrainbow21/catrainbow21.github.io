@@ -1,0 +1,51 @@
+	/*table css*/
+	table {
+			border:1px solid #000000;
+			border-collapse:collapse;
+			padding:5px;
+			border-radius: 2em;
+			margin-left: auto;
+			margin-right: auto;
+	}
+		table th {
+			border:1px solid #000000;
+			padding:5px;
+			background: #ffb923;
+			color: #000000;
+			
+		}
+		table td {
+			border:1px solid #000000;
+			text-align:center;
+			padding:5px;
+			background: #ffffff;
+			color: #000000;
+			
+		}
+
+		/*project example section*/
+		section{
+			display:flex;
+			justify-content: space-evenly;
+			align-content: center;
+			margin-top: 50px;
+			padding-top: 20px;
+			
+			
+		}
+
+		h1{
+			text-align: center;
+		}
+
+		/*project example articles*/
+		article{
+			padding-top:20px;
+			margin-bottom: 50px;
+			border-style:solid;
+			border-color:#ffcf69;
+			border-width: 50px;
+			background-color:#ffcf69;
+			border-radius: 15em;
+			text-align: center;
+		}
